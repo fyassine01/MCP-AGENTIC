@@ -172,8 +172,6 @@ Connect to your business or LLM product
 
 <img width="1085" height="425" alt="Screenshot 2025-06-19 190415" src="https://github.com/user-attachments/assets/a214b2d4-a787-47b2-9aaf-8090c1806833" />
 <img width="751" height="565" alt="Screenshot 2025-06-19 185951" src="https://github.com/user-attachments/assets/1a627fb5-e438-4664-80ce-c9361e523258" />
-<img width="1130" height="571" alt="Screenshot 2025-06-19 185026" src="https://github.com/user-attachments/assets/ae65d89d-d3d6-4682-abd4-5405071e2ff7" />
-<img width="756" height="557" alt="Screenshot 2025-06-19 184948" src="https://github.com/user-attachments/assets/ccb4a117-af36-45be-ac70-3d03dc5adbe6" />
 <img width="1052" height="526" alt="Screenshot 2025-06-19 183151" src="https://github.com/user-attachments/assets/0cf30c3b-f7e6-474b-931e-e6e6d668c3bf" />
 <img width="466" height="285" alt="Screenshot 2025-06-19 182919" src="https://github.com/user-attachments/assets/108cc9dd-019f-4c4c-b62b-8cb0a43ab7e3" />
 <img width="478" height="283" alt="Screenshot 2025-06-19 182906" src="https://github.com/user-attachments/assets/35b2b1e9-89e3-440c-b56b-04c53abeb883" />
