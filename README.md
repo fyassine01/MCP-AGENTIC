@@ -42,7 +42,7 @@ mcp-demo-project/
 ├── config/                # MCP config files
 ├── examples/              # Optional examples/demos
 └── README.md              # 📄 You are here
-
+---
 # MCP Demo Project
 mcp-demo-project/
 ├── python-server/ # Python MCP server
@@ -172,6 +172,4 @@ Connect to your business or LLM product
 🧑‍💻 TypeScript SDK
 
 🧪 Example Servers
-<img width="877" height="871" alt="Screenshot 2025-06-16 154734" src="https://github.com/user-attachments/assets/bfb13348-44c2-439b-b5d9-ac9b2a1cc6f0" />
-
 
