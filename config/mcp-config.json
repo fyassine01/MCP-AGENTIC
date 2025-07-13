@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "python-demo": {
+      "command": "python",
+      "args": ["/absolute/path/to/your/python-server/server.py"],
+      "env": {}
+    },
+    "typescript-demo": {
+      "command": "node",
+      "args": ["/absolute/path/to/your/typescript-server/dist/server.js"],
+      "env": {}
+    }
+  }
+}
