@@ -43,54 +43,52 @@ mcp-demo-project/
 ├── examples/              # Optional examples/demos
 └── README.md              # 📄 You are here
 
-🐍 Python MCP Server Setup
-Step 1: Environment Setup
-bash
-Copier
-Modifier
+# MCP Demo Project
+mcp-demo-project/
+├── python-server/ # Python MCP server
+├── typescript-server/ # TypeScript MCP server
+├── config/ # MCP config files
+├── examples/ # Optional examples/demos
+└── README.md # 📄 You are here
+
+text
+
+## 🐍 Python MCP Server Setup
+
+### Step 1: Environment Setup
+```bash
 cd python-server
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 Step 2: Run the Server
 bash
-Copier
-Modifier
 python server.py
 Or use the launch helper:
 
 bash
-Copier
-Modifier
 python run_server.py
 🧩 TypeScript MCP Server Setup
 Step 1: Initialize Project
 bash
-Copier
-Modifier
 cd typescript-server
 npm install
 npm run build
 Step 2: Run Server
 bash
-Copier
-Modifier
 npm start
 For hot reload (dev mode):
 
 bash
-Copier
-Modifier
 npm run dev
 🤖 Claude Desktop Integration
-1. Add this config in:
+Add this config in:
+
 Windows: %APPDATA%\Claude\claude_desktop_config.json
 
 macOS: ~/Library/Application Support/Claude/claude_desktop_config.json
 
 json
-Copier
-Modifier
 {
   "mcpServers": {
     "python-demo": {
@@ -103,7 +101,8 @@ Modifier
     }
   }
 }
-2. Restart Claude Desktop
+Restart Claude Desktop
+
 MCP servers should now be auto-connected. You can start asking:
 
 "Add a note with title 'Test'"
@@ -120,9 +119,7 @@ MCP servers should now be auto-connected. You can start asking:
 
 🚀 Deployment
 Dockerfile (Python server)
-Dockerfile
-Copier
-Modifier
+dockerfile
 FROM python:3.11-slim
 WORKDIR /app
 COPY python-server/requirements.txt .
@@ -131,8 +128,6 @@ COPY python-server/ .
 CMD ["python", "server.py"]
 Docker Compose (Optional)
 yaml
-Copier
-Modifier
 services:
   python-mcp:
     build: .
@@ -142,13 +137,10 @@ services:
     tty: true
 🧪 Testing & Debugging
 Test direct:
+
 bash
-Copier
-Modifier
 echo '{"jsonrpc": "2.0", "id": 1, "method": "initialize", "params": {}}' | python server.py
 bash
-Copier
-Modifier
 echo '{"jsonrpc": "2.0", "id": 1, "method": "initialize", "params": {}}' | npm start
 🔐 Advanced Features
 ✅ SQLite support (pip install sqlite3)
@@ -180,15 +172,4 @@ Connect to your business or LLM product
 🧑‍💻 TypeScript SDK
 
 🧪 Example Servers
-
-Built with ❤️ by Yassine FARAH
-Open to contributions, improvements, and feedback!
-
-yaml
-Copier
-Modifier
-
----
-
-Would you like a `deploy.sh`, `Makefile`, or `.bat` version as well for easier deployment on Windows?
 
