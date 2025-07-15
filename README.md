@@ -1,3 +1,5 @@
+<img width="410" height="422" alt="Screenshot 2025-07-15 133009" src="https://github.com/user-attachments/assets/0ceceef9-577e-4739-bced-20b7d757951c" />
+
 # 🔌 Complete MCP (Model Context Protocol) Demo Project
 
 **By Yassine FARAH**
